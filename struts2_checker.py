@@ -15,5 +15,6 @@ def main():
                 url[0] = 'http://' + url[0]
                 result = os.popen('python struts2_hunt.py %s' % url[0])
                 f2.write(result.read())
+                print '[*] Site Checking:  ' + url[0]
 if __name__ == '__main__':
     main()
