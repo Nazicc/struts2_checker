@@ -189,7 +189,7 @@ if __name__ == "__main__":
     if len(sys.argv) > 1:
         result = poc(sys.argv[1])
         if result:
-            print result
+            print sys.argv[1]
     else:
         print "\n[*]usag: python poc.py http://www.demo.com"
 
